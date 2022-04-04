@@ -14,7 +14,7 @@ dependencies:
 
   pattern_setstate:
     git:
-      url: ssh://git@github.com:Shaxriyorboy/pattern_setstate.git
+      url: ssh://git@gitserver:Shaxriyorboy/pattern_setstate.git
 
 
   cupertino_icons: ^1.0.2
