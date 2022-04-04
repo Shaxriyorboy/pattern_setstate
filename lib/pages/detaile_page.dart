@@ -28,6 +28,7 @@ class _DetailPageState extends State<DetailPage> {
   void _apiCreate(){
     String title = titleController.text;
     String body = bodyController.text;
+
     if(widget.post != null){
       Post post = Post(title: title,body: body,userId: title.hashCode);
       Network.POST(Network.API_CREATE.toString(), Network.paramsCreate(post)).then((value){
