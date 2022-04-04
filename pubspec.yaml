@@ -12,10 +12,6 @@ dependencies:
   flutter:
     sdk: flutter
 
-  pattern_setstate:
-    git:
-      url: git@github.com:Shaxriyorboy/pattern_setstate.git
-
 
   cupertino_icons: ^1.0.2
   http: ^0.13.4
